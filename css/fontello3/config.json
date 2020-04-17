@@ -1,0 +1,16 @@
+{
+  "name": "school",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "4b7f817f780705a5d267ad59e855da91",
+      "css": "graduation-cap",
+      "code": 59392,
+      "src": "linecons"
+    }
+  ]
+}

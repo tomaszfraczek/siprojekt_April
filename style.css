@@ -7,14 +7,14 @@ body
 }
 #container
 {
-	width: 1000px;
+	width: 1200px; /*1000*/
 	margin-left: auto;
 	margin-right: auto;
 	
 }
 .rectangle
 {
-	width: 1000px;  /*960px */
+	width: 1200px;  /*960px */
 	margin: 20px; 
 	text-align: center;
 	
@@ -24,11 +24,16 @@ body
 	width: 50%;
 	float:left;
 }
-#logo
+.square
 {
-float: left;	
+	width: 50%;
+	float:left;
+}
+#napis
+{
+float: right;	
 font-family: 'Josefin Sans', sans-serif;
-font-size: 70px;
+font-size: 56px;
 width: 600px;
 text-align: left;
 
@@ -37,19 +42,23 @@ text-align: left;
 {
 float: left;	
 font-family: 'Josefin Sans', sans-serif;
-font-size: 70px;
-text-align: left;
-
+font-size: 56px;
+text-align: center;
+margin-left: 100px;
 
 }
 .title1
 {
-	width: 230px;
+	width: 200px;
 	margin: 10px;
 	height: 142px;
 	background-color: #3095d3;
 	float: left;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
 }
 .title1:hover
 {
@@ -58,78 +67,92 @@ text-align: left;
 
 .title2
 {
-	width: 230px;
+	width: 200px;
 	margin: 10px;
 	height: 142px;
 	background-color: #666666;
 	float: left;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
 
 }
 .title2:hover
 {
 	background-color: #555555;
 }
+
 .title3
 {
-	width: 230px;
+	width: 420px;
 	margin: 10px;
 	height: 142px;
-	background-color: #93c748;
-	float: left;
+	background-color: #386248;
 	text-align: center;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	
 }
-.title3:hover
+.title4 /*cytat */
 {
-	background-color: #82b638;
-}
-.title4
-{
-	width: 480px;
+	width: 420px;
 	margin: 10px;
 	height: 142px;
 	background-color: #ee5a32;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
 	
-	
-
 }
 .title5
 {
-	width: 420px;
+	width: 620px;
 	margin: 10px;
-	height: 244px;
+	height: 588px;
 	background-color: #666666;
 	text-align: justify;
-	padding: 30px;
-}
-.yt
-{
-	margin: 10px;
-	width: 230px;
-	height: 142px;
-	background-color: #991111;
-	float: left;
-	text-align: center;
 	
+	padding: 20px; /*30*/
+	float: right;
 }
-.yt:hover
+.title6
 {
-	background-color: #880000;
-}
-.fb
-{
+	width: 200px;
 	margin: 10px;
-	width: 230px;
 	height: 142px;
-	background-color: #3095d3;
+	background-color: #357963;
 	float: left;
 	text-align: center;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
 }
-.fb:hover
+.title6:hover
 {
 	background-color: #2084c2;
+}
+.title7
+{
+	width: 200px;
+	margin: 10px;
+	height: 142px;
+	background-color: #bedf2b;
+	float: left;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+}
+.title7:hover
+{
+	background-color: #024962;
 }
 	
